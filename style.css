@@ -201,8 +201,10 @@ img {
   .plant-banner {
     flex-direction: column;
     width: 361px;
+    margin-top: 41px;
   }
   .plant-banner-right {
     margin-left: 17px;
   }
+  
 }
