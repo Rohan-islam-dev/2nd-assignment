@@ -14,15 +14,22 @@
 
 .mg-auto{
     margin: 0 auto;
+    max-width: 1140px;
+}
+.dark1{
+    color: #000000;
 }
 .dark5{
     color: #8987A1;
 }
+.orange{
+    color: #E95A08;
+}
+
 
 /* nav section  */
 .navbar{
-    display: flex;
-    max-width: 1140px;
+    display: flex;  
     align-items: center;
     justify-content: space-between;
     margin-top: 30px;
@@ -44,14 +51,63 @@
     color: #252432;
     font-weight: 700;
 }
-#cart{
+.cart{
     color: #000000;
 }
+/* banner section  */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+   
+}
+.banner-left{
+    max-width: 570px;
+    margin-top: 162px;
+    
+
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.banner-description{
+    max-width: 570px;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 23px;
+}
+.banner-right{
+    max-width: 570px;
+    margin-top: 106px;
+}
+img{
+    width: 100%;
+}
+
+
+
 
 
 /* small device responsive */
 @media screen and (max-width:576px) {
-    .hide{
-       visibility: hidden; 
+    .navbar .hide{
+        display: none;
     }
+    
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-left{
+        margin: 28px 16px 0px 16px;
+        max-width: 361px;
+    }
+    .banner-title{
+        font-size: 24px;
+        font-weight: bolds;
+        margin-bottom: 10px;
+    }
+  
+    
 }
