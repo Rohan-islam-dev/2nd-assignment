@@ -40,10 +40,18 @@
 .navbar i{
     margin-right: 10px;
 }
-#home{
+.home{
     color: #252432;
     font-weight: 700;
 }
 #cart{
     color: #000000;
+}
+
+
+/* small device responsive */
+@media screen and (max-width:576px) {
+    .hide{
+       visibility: hidden; 
+    }
 }
