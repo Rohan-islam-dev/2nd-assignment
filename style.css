@@ -219,11 +219,11 @@ img {
 
 .deal-card-right {
   position: relative;
-  text-align: center;
 }
 
 .deal-card-right-text {
   width: 70%;
+  text-align: center;
   position: absolute;
   left: 128px;
   top: 172px;
@@ -361,7 +361,8 @@ img {
   }
   .deal-parent {
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 20px;
+  
   }
   .deal-card-right img {
     width: 361px;
