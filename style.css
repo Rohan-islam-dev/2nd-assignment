@@ -14,6 +14,7 @@
 body {
   background-color: #f5f8ff;
 }
+
 .mg-auto {
   margin: 0 auto;
   max-width: 1140px;
@@ -205,37 +206,33 @@ img {
   left: 49px;
   top: 65px;
 }
-.deal-card-left-2nd{
+.deal-card-left-2nd {
   position: relative;
   text-align: center;
 }
-.deal-card-left-2st-text{
+.deal-card-left-2st-text {
   position: absolute;
   width: 270px;
   left: 40px;
   top: 65px;
 }
 
-
-.deal-card-right{
+.deal-card-right {
   position: relative;
   text-align: center;
 }
 
-.deal-card-right-text{
+.deal-card-right-text {
   width: 70%;
   position: absolute;
   left: 128px;
   top: 172px;
 }
-.deal-card-right-text{
- font-size: 2.5rem;
+.deal-card-right-text {
+  font-size: 2.5rem;
   font-weight: bold;
   color: #ffffff;
-  
 }
-
-
 
 .deal-card-left-1st-text,
 .deal-card-left-2st-text {
@@ -261,6 +258,38 @@ img {
 .deal-card-right img {
   width: 100%;
   border-radius: 22px;
+}
+
+/* join section  */
+.join-container {
+  margin-top: 120px;
+
+  position: relative;
+}
+.join-container-title {
+  font-size: 3.12rem;
+  color: #ffffff;
+  font-weight: bold;
+  width: 586px;
+  position: absolute;
+  top: 199px;
+  left: 660px;
+}
+.join-form {
+  /* width: 644px; */
+  height: 50px;
+  padding: 15px 540px 15px 20px;
+}
+.join-btn {
+  position: absolute;
+  width: 186px;
+  height: 50px;
+  padding: 19px 53px;
+}
+.join-container form {
+  position: absolute;
+  top: 290px;
+  left: 537px;
 }
 
 /* small device responsive */
@@ -298,31 +327,72 @@ img {
     width: 361px;
     margin-top: 41px;
   }
-  
+  .plant-banner-title br {
+    display: none;
+  }
+  .plant-banner-title,
+  .plan-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .plan-card-description {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 16px;
+  }
+
   .plant-banner-right {
     margin-left: 17px;
   }
-  .deal-description{
+  .deal-description {
     width: 336px;
     height: 68px;
     margin-left: 28px;
     margin-top: 16px;
-    
   }
-  .deal-parent{
+  .deal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .deal-description {
+    font-size: 14px;
+    font-weight: 700;
+    width: 336px;
+  }
+  .deal-parent {
     flex-direction: column;
     margin-left: 10px;
-    
   }
-  .deal-card-right img{
+  .deal-card-right img {
     width: 361px;
   }
-  .deal-card-right-text{
+  .deal-card-right-text {
     width: 270px;
     left: 49px;
     top: 60px;
   }
-  .deal-card-right-text{
+  .deal-card-right-text {
     font-size: 1.25rem;
+  }
+  .join-container {
+    margin-top: 44px;
+  }
+  .join-form {
+    width: 218px;
+    padding: 20px;
+  }
+  .join-btn {
+    width: 103px;
+    padding: 19px 12px;
+  }
+  .join-container form {
+    top: 70px;
+    left: 36px;
+  }
+  .join-container-title {
+    font-size: 20px;
+    width: 235px;
+    left: 79px;
+    top: 30px;
   }
 }
