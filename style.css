@@ -193,6 +193,7 @@ img {
   display: flex;
   gap: 28px;
   margin-top: 128px;
+  padding: 20px;
 }
 .deal-card-left {
   
@@ -324,7 +325,7 @@ footer {
 
 /* small device responsive */
 @media screen and (max-width: 576px) {
-  .navbar .hide,
+  .hide,
   .badge {
     display: none;
   }
@@ -391,7 +392,7 @@ footer {
   }
   .deal-parent {
     flex-direction: column;
-    margin-left: 20px;
+   
   }
 
   .deal-card-right-text {
