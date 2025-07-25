@@ -195,7 +195,7 @@ img {
   margin-top: 128px;
 }
 .deal-card-left {
-  width: 367px;
+  
   position: relative;
 }
 
@@ -393,9 +393,7 @@ footer {
     flex-direction: column;
     margin-left: 20px;
   }
-  .deal-card-right img {
-    width: 361px;
-  }
+
   .deal-card-right-text {
     width: 270px;
     left: 49px;
