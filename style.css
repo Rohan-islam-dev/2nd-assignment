@@ -31,7 +31,7 @@ body {
 .btn-primary {
   font-weight: 600px;
   background-color: #e95a08;
-  padding: 19px 80px;
+  padding: 19px 20px;
   border: none;
   color: #ffffff;
   width: 100%;
@@ -109,7 +109,8 @@ img {
   font-size: 1.3rem;
 }
 .card {
-  max-width: 270px;
+  width: 100%;
+  padding: 10px;
 }
 
 .card-name,
